@@ -11,7 +11,7 @@ namespace BestFoodRest
         private int _id;
         private string _type;
 
-        public Food(int Id = 0, string Type)
+        public Food(string Type, int Id = 0)
         {
             _id = Id;
             _type = Type;
